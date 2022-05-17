@@ -155,7 +155,7 @@ function Header({Addcart,setAddcart}){
            setAddcart(0)
           
           }}
-          variant='outlined' sx={{color:"black",borderRadius:"0",maxHeight:"35px",borderStyle:"none"}}> <Link to={"/cart"}>Cart Items</Link>
+          variant='outlined' sx={{color:"black",borderRadius:"0",maxHeight:"35px",borderStyle:"none",display:"flex" ,marginLeft:"auto"}}> <Link to={"/cart"}>Cart Items</Link>
           <h5> <Badge badgeContent={Addcart} color="success">
            <ShoppingCartCheckoutIcon />
 </Badge> </h5></Button>
