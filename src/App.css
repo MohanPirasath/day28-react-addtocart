@@ -1,38 +1,81 @@
-.App {
+.poster{
+  height: 350px;
+  background-color: black;
+  width: 100%;
+  color: aliceblue;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* padding-top: 50px; */
+   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.posterh1>h1{
+font-size:60px;
+margin: 0;
+}
+.posterpara>p{
+  font-size: 21px;
+  margin: 3px
+  ;
+}
+img{
+  object-fit:cover;
+  
+}
+.cards{
+  display: flex;
+  justify-content:flex-start;
+  gap: "700px";
+  flex-wrap: wrap;
+  margin-left: 75px;
+}
+.cardimg{
+  margin: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header>Button{
+border-style: none; 
+  border-radius: 0;
+  max-height: min-content;
+  background-color: black;
+  
+ 
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.cart_btn{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cart_btn>button:hover{
+background-color: green;
+color: white;
+}
+.Aboutlines>h3{
+  color: black;
+}
+.Aboutlines{
+  margin: 90px 20px;
+  text-align: center;
+}
+.shoph3>h3{
+  text-align: center;
+margin: 90px 25px;
+}
+
+.shoph3>h3>Button{
+ background-color: blue;
+ margin-top: 40px;
+  color: black;
+}
+.header>Button>a{
+  font-size: larger;
+}
+.header>Button>a:hover{
+  color: green;
 }
